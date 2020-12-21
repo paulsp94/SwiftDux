@@ -65,9 +65,9 @@ Pod::Spec.new do |spec|
 
   #  When using multiple platforms
   spec.ios.deployment_target = "14.0"
-  spec.osx.deployment_target = "11.0"
-  spec.watchos.deployment_target = "7.0"
-  spec.tvos.deployment_target = "14.0"
+  # spec.osx.deployment_target = "11.0"
+  # spec.watchos.deployment_target = "7.0"
+  # spec.tvos.deployment_target = "14.0"
 
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -87,6 +87,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
+  spec.swift_version = "5.3"
   spec.source_files  = "Sources/**/*.swift"
 
 
